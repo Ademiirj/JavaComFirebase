@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTable1">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="4" rowCount="4">
+                <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                <Column editable="true" title="Title 4" type="java.lang.Object"/>
+              </Table>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="MVC - Cadastro de Usu&#xe1;rios"/>
+    <Property name="focusable" type="boolean" value="false"/>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[1024, 900]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-80,0,0,4,83"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="true"/>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblTitulo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Cadastro de Usu&#xe1;rios Firebase"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="40" y="80" width="460" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="10" y="110" width="980" height="170"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="painelDADOS">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Dados do Usu&#xe1;rio">
+                <Property name="tabTitle" type="java.lang.String" value="Dados do Usu&#xe1;rio"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txt_ameacas" min="-2" pref="136" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txt_categoriaAmeaca" max="32767" attributes="0"/>
+                                  <Component id="lblUSU_LOGIN" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="lblUSU_NOME" pref="253" max="32767" attributes="0"/>
+                                  <Component id="txt_nome" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="cb_uf" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel9" min="-2" pref="38" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                              <Component id="btnLimpar" min="-2" pref="75" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="cb_fauna" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="cb_grupo" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jLabel2" alignment="0" min="-2" pref="147" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="cb_familia" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jLabel3" alignment="0" min="-2" pref="121" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txt_especie" min="-2" pref="170" max="-2" attributes="0"/>
+                                  <Component id="jLabel4" min="-2" pref="170" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="lblUSU_LOGIN1" min="-2" pref="180" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="85" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="txt_bioma" min="-2" pref="180" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="btnConsulta" pref="124" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="99" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="cb_fauna" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cb_grupo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblUSU_LOGIN1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="cb_familia" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt_especie" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt_bioma" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnConsulta" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="26" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblUSU_LOGIN" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="txt_categoriaAmeaca" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="lblUSU_NOME" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="txt_nome" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="txt_ameacas" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="btnLimpar" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                          <Component id="cb_uf" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="lblUSU_NOME">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Nome"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblUSU_LOGIN">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Categoria da Ameaca"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_nome">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_nomeActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_categoriaAmeaca">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_bioma">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblUSU_LOGIN1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Bioma"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Fauna/Flora"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cb_fauna">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="3">
+                    <StringItem index="0" value="Selecionar"/>
+                    <StringItem index="1" value="Fauna"/>
+                    <StringItem index="2" value="Flora"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Grupo"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cb_grupo">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="13">
+                    <StringItem index="0" value="Selecionar"/>
+                    <StringItem index="1" value="Angiospermas"/>
+                    <StringItem index="2" value="Aves"/>
+                    <StringItem index="3" value="Invertebrados Terrestres"/>
+                    <StringItem index="4" value="Peixes Marinhos"/>
+                    <StringItem index="5" value="Anf&#xed;bios"/>
+                    <StringItem index="6" value="Pterid&#xf3;fitas"/>
+                    <StringItem index="7" value="Invertebrados Aqu&#xe1;ticos"/>
+                    <StringItem index="8" value="Peixes Continentais"/>
+                    <StringItem index="9" value="Mam&#xed;feros"/>
+                    <StringItem index="10" value="R&#xe9;pteis"/>
+                    <StringItem index="11" value="Gimnospermas"/>
+                    <StringItem index="12" value="Bri&#xf3;fitas"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cb_grupoActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Familia"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cb_familia">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="427">
+                    <StringItem index="0" value="Selecionar"/>
+                    <StringItem index="1" value="Salicaceae"/>
+                    <StringItem index="2" value="Cracidae"/>
+                    <StringItem index="3" value="Malvaceae"/>
+                    <StringItem index="4" value="Santalaceae"/>
+                    <StringItem index="5" value="Myrtaceae"/>
+                    <StringItem index="6" value="Coenagrionidae"/>
+                    <StringItem index="7" value="Hypogastruridae"/>
+                    <StringItem index="8" value="Plantaginaceae"/>
+                    <StringItem index="9" value="Achiridae"/>
+                    <StringItem index="10" value="Orchidaceae"/>
+                    <StringItem index="11" value="Asteraceae"/>
+                    <StringItem index="12" value="Furnariidae"/>
+                    <StringItem index="13" value="Arecaceae"/>
+                    <StringItem index="14" value="Eriocaulaceae"/>
+                    <StringItem index="15" value="Nymphalidae"/>
+                    <StringItem index="16" value="Baetidae"/>
+                    <StringItem index="17" value="Eleutherodactylidae"/>
+                    <StringItem index="18" value="Bignoniaceae"/>
+                    <StringItem index="19" value="Euphorbiaceae"/>
+                    <StringItem index="20" value="Pteridaceae"/>
+                    <StringItem index="21" value="Bromeliaceae"/>
+                    <StringItem index="22" value="Aeglidae"/>
+                    <StringItem index="23" value="Fabaceae"/>
+                    <StringItem index="24" value="Orobanchaceae"/>
+                    <StringItem index="25" value="Hylidae"/>
+                    <StringItem index="26" value="Poaceae"/>
+                    <StringItem index="27" value="Pimelodidae"/>
+                    <StringItem index="28" value="Lauraceae"/>
+                    <StringItem index="29" value="Cricetidae"/>
+                    <StringItem index="30" value="Polypodiaceae"/>
+                    <StringItem index="31" value="Tyrannidae"/>
+                    <StringItem index="32" value="Sphingidae"/>
+                    <StringItem index="33" value="Aromobatidae"/>
+                    <StringItem index="34" value="Rutaceae"/>
+                    <StringItem index="35" value="Alopiidae"/>
+                    <StringItem index="36" value="Atelidae"/>
+                    <StringItem index="37" value="Verbenaceae"/>
+                    <StringItem index="38" value="Rubiaceae"/>
+                    <StringItem index="39" value="Alstroemeriaceae"/>
+                    <StringItem index="40" value="Amaranthaceae"/>
+                    <StringItem index="41" value="Lucanidae"/>
+                    <StringItem index="42" value="Accipitridae"/>
+                    <StringItem index="43" value="Psittacidae"/>
+                    <StringItem index="44" value="Teiidae"/>
+                    <StringItem index="45" value="Typhlopidae"/>
+                    <StringItem index="46" value="Amphisbanidae"/>
+                    <StringItem index="47" value="Lampyridae"/>
+                    <StringItem index="48" value="Rivulidae"/>
+                    <StringItem index="49" value="Buthidae"/>
+                    <StringItem index="50" value="Loricariidae"/>
+                    <StringItem index="51" value="Anemiaceae"/>
+                    <StringItem index="52" value="Annonaceae"/>
+                    <StringItem index="53" value="Formicidae"/>
+                    <StringItem index="54" value="Araceae"/>
+                    <StringItem index="55" value="Motacillidae"/>
+                    <StringItem index="56" value="Pipridae"/>
+                    <StringItem index="57" value="Loasaceae"/>
+                    <StringItem index="58" value="Parodontidae"/>
+                    <StringItem index="59" value="Acanthaceae"/>
+                    <StringItem index="60" value="Characidae"/>
+                    <StringItem index="61" value="Dipsadidae"/>
+                    <StringItem index="62" value="Apteronotidae"/>
+                    <StringItem index="63" value="Araucariaceae"/>
+                    <StringItem index="64" value="Lycaenidae"/>
+                    <StringItem index="65" value="Andrenidae"/>
+                    <StringItem index="66" value="Aristolochiaceae"/>
+                    <StringItem index="67" value="Passerelidae"/>
+                    <StringItem index="68" value="Arrhopalitidae"/>
+                    <StringItem index="69" value="Cactaceae"/>
+                    <StringItem index="70" value="Aspleniaceae"/>
+                    <StringItem index="71" value="Cyclanthaceae"/>
+                    <StringItem index="72" value="Astropectinidae"/>
+                    <StringItem index="73" value="Canidae"/>
+                    <StringItem index="74" value="Scarabaeidae"/>
+                    <StringItem index="75" value="Arhynchobatidae"/>
+                    <StringItem index="76" value="Dicranaceae"/>
+                    <StringItem index="77" value="Trochilidae"/>
+                    <StringItem index="78" value="Theraphosidae"/>
+                    <StringItem index="79" value="Gymnophthalmidae"/>
+                    <StringItem index="80" value="Balaenopteridae"/>
+                    <StringItem index="81" value="Malpighiaceae"/>
+                    <StringItem index="82" value="Velloziaceae"/>
+                    <StringItem index="83" value="Begoniaceae"/>
+                    <StringItem index="84" value="Berberidaceae"/>
+                    <StringItem index="85" value="Lecythidaceae"/>
+                    <StringItem index="86" value="Melastomataceae"/>
+                    <StringItem index="87" value="Gesneriaceae"/>
+                    <StringItem index="88" value="Cervidae"/>
+                    <StringItem index="89" value="Blechnaceae"/>
+                    <StringItem index="90" value="Lejeuneaceae"/>
+                    <StringItem index="91" value="Plethodontidae"/>
+                    <StringItem index="92" value="Calyceraceae"/>
+                    <StringItem index="93" value="Viperidae"/>
+                    <StringItem index="94" value="Bouchardiidae"/>
+                    <StringItem index="95" value="Brachycephalidae"/>
+                    <StringItem index="96" value="Hypopomidae"/>
+                    <StringItem index="97" value="Bradypodidae"/>
+                    <StringItem index="98" value="Mabuyidae"/>
+                    <StringItem index="99" value="Prodidomidae"/>
+                    <StringItem index="100" value="Hedwigiaceae"/>
+                    <StringItem index="101" value="Combretaceae"/>
+                    <StringItem index="102" value="Scrophulariaceae"/>
+                    <StringItem index="103" value="Cyperaceae"/>
+                    <StringItem index="104" value="Burseraceae"/>
+                    <StringItem index="105" value="Pitheciidae"/>
+                    <StringItem index="106" value="Solanaceae"/>
+                    <StringItem index="107" value="Scolopacidae"/>
+                    <StringItem index="108" value="Vochysiaceae"/>
+                    <StringItem index="109" value="Echimyidae"/>
+                    <StringItem index="110" value="Callitrichidae"/>
+                    <StringItem index="111" value="Didelphidae"/>
+                    <StringItem index="112" value="Platyrinchidae"/>
+                    <StringItem index="113" value="Dendrocolaptidae"/>
+                    <StringItem index="114" value="Capitonidae"/>
+                    <StringItem index="115" value="Carcharhinidae"/>
+                    <StringItem index="116" value="Odontaspididae"/>
+                    <StringItem index="117" value="Lamnidae"/>
+                    <StringItem index="118" value="Gecarcinidae"/>
+                    <StringItem index="119" value="Cheloniidae"/>
+                    <StringItem index="120" value="Cotingidae"/>
+                    <StringItem index="121" value="Lycidae"/>
+                    <StringItem index="122" value="Cardinalidae"/>
+                    <StringItem index="123" value="Cassidulidae"/>
+                    <StringItem index="124" value="Simaroubaceae"/>
+                    <StringItem index="125" value="Aeshnidae"/>
+                    <StringItem index="126" value="Caviidae"/>
+                    <StringItem index="127" value="Cebidae"/>
+                    <StringItem index="128" value="Meliaceae"/>
+                    <StringItem index="129" value="Ctenidae"/>
+                    <StringItem index="130" value="Picidae"/>
+                    <StringItem index="131" value="Ciidae"/>
+                    <StringItem index="132" value="Thamnophilidae"/>
+                    <StringItem index="133" value="Microdesmidae"/>
+                    <StringItem index="134" value="Cetorhinidae"/>
+                    <StringItem index="135" value="Erethizontidae"/>
+                    <StringItem index="136" value="Formicariidae"/>
+                    <StringItem index="137" value="Crenuchidae"/>
+                    <StringItem index="138" value="Charadriidae"/>
+                    <StringItem index="139" value="Charinidae"/>
+                    <StringItem index="140" value="Pieridae"/>
+                    <StringItem index="141" value="Heptapteridae"/>
+                    <StringItem index="142" value="Microhylidae"/>
+                    <StringItem index="143" value="Oleaceae"/>
+                    <StringItem index="144" value="Serranidae"/>
+                    <StringItem index="145" value="Dithrichaceae"/>
+                    <StringItem index="146" value="Sapotaceae"/>
+                    <StringItem index="147" value="Turdidae"/>
+                    <StringItem index="148" value="Vitaceae"/>
+                    <StringItem index="149" value="Columbidae"/>
+                    <StringItem index="150" value="Clusiaceae"/>
+                    <StringItem index="151" value="Poeciliidae"/>
+                    <StringItem index="152" value="Carabidae"/>
+                    <StringItem index="153" value="Sphaerodactylidae"/>
+                    <StringItem index="154" value="Rhamnaceae"/>
+                    <StringItem index="155" value="Actiniidae"/>
+                    <StringItem index="156" value="Conopophagidae"/>
+                    <StringItem index="157" value="Thraupidae"/>
+                    <StringItem index="158" value="Dytiscidae"/>
+                    <StringItem index="159" value="Boidae"/>
+                    <StringItem index="160" value="Metaniidae"/>
+                    <StringItem index="161" value="Callichthyidae"/>
+                    <StringItem index="162" value="Asteriidae"/>
+                    <StringItem index="163" value="Chrysobalanaceae"/>
+                    <StringItem index="164" value="Crassulaceae"/>
+                    <StringItem index="165" value="Cichlidae"/>
+                    <StringItem index="166" value="Hylodidae"/>
+                    <StringItem index="167" value="Cryptopidae"/>
+                    <StringItem index="168" value="Tinamidae"/>
+                    <StringItem index="169" value="Ctenomyidae"/>
+                    <StringItem index="170" value="Sapindaceae"/>
+                    <StringItem index="171" value="Lythraceae"/>
+                    <StringItem index="172" value="Icteridae"/>
+                    <StringItem index="173" value="Lamiaceae"/>
+                    <StringItem index="174" value="Corvidae"/>
+                    <StringItem index="175" value="Cycloramphidae"/>
+                    <StringItem index="176" value="Dactyloidae"/>
+                    <StringItem index="177" value="Dasyatidae"/>
+                    <StringItem index="178" value="Dilleniaceae"/>
+                    <StringItem index="179" value="Dermochelydae"/>
+                    <StringItem index="180" value="Commelinaceae"/>
+                    <StringItem index="181" value="Dicksoniaceae"/>
+                    <StringItem index="182" value="Diomedeidae"/>
+                    <StringItem index="183" value="Onuphidae"/>
+                    <StringItem index="184" value="Chelodesmidae"/>
+                    <StringItem index="185" value="Dioscoreaceae"/>
+                    <StringItem index="186" value="Lycopodiaceae"/>
+                    <StringItem index="187" value="Hyriidae"/>
+                    <StringItem index="188" value="Saturniidae"/>
+                    <StringItem index="189" value="Apocynaceae"/>
+                    <StringItem index="190" value="Moraceae"/>
+                    <StringItem index="191" value="Hesperiidae"/>
+                    <StringItem index="192" value="Droseraceae"/>
+                    <StringItem index="193" value="Drymusidae"/>
+                    <StringItem index="194" value="Sternopygidae"/>
+                    <StringItem index="195" value="Amaryllidaceae"/>
+                    <StringItem index="196" value="Gobiidae"/>
+                    <StringItem index="197" value="Dryopteridaceae"/>
+                    <StringItem index="198" value="Libellulidae"/>
+                    <StringItem index="199" value="Rhinocryptidae"/>
+                    <StringItem index="200" value="Tripterygiidae"/>
+                    <StringItem index="201" value="Leiosauridae"/>
+                    <StringItem index="202" value="Ephedraceae"/>
+                    <StringItem index="203" value="Epinephelidae"/>
+                    <StringItem index="204" value="Peripatidae"/>
+                    <StringItem index="205" value="Vespertilionidae"/>
+                    <StringItem index="206" value="Apiaceae"/>
+                    <StringItem index="207" value="Erythroxylaceae"/>
+                    <StringItem index="208" value="Escalloniaceae"/>
+                    <StringItem index="209" value="Balaenidae"/>
+                    <StringItem index="210" value="Eukoeneniidae"/>
+                    <StringItem index="211" value="Eunicidae"/>
+                    <StringItem index="212" value="Proteaceae"/>
+                    <StringItem index="213" value="Gonyleptidae"/>
+                    <StringItem index="214" value="Strombidae"/>
+                    <StringItem index="215" value="Pectinidae"/>
+                    <StringItem index="216" value="Convolvulaceae"/>
+                    <StringItem index="217" value="Glossoscolecidae"/>
+                    <StringItem index="218" value="Fregatidae"/>
+                    <StringItem index="219" value="Furipteridae"/>
+                    <StringItem index="220" value="Triakidae"/>
+                    <StringItem index="221" value="Ericaceae"/>
+                    <StringItem index="222" value="Ariidae"/>
+                    <StringItem index="223" value="Lentibulariaceae"/>
+                    <StringItem index="224" value="Scleruridae"/>
+                    <StringItem index="225" value="Ginglymostomatidae"/>
+                    <StringItem index="226" value="Trichomycteridae"/>
+                    <StringItem index="227" value="Glomerodesmidae"/>
+                    <StringItem index="228" value="Phyllostomidae"/>
+                    <StringItem index="229" value="Marantaceae"/>
+                    <StringItem index="230" value="Arnelliaceae"/>
+                    <StringItem index="231" value="Strophocheilidae"/>
+                    <StringItem index="232" value="Grallariidae"/>
+                    <StringItem index="233" value="Gunneraceae"/>
+                    <StringItem index="234" value="Gymnuridae"/>
+                    <StringItem index="235" value="Chactidae"/>
+                    <StringItem index="236" value="Labridae"/>
+                    <StringItem index="237" value="Halichondriidae"/>
+                    <StringItem index="238" value="Dipluridae"/>
+                    <StringItem index="239" value="Doradidae"/>
+                    <StringItem index="240" value="Cistaceae"/>
+                    <StringItem index="241" value="Rhynchocyclidae"/>
+                    <StringItem index="242" value="Papilionidae"/>
+                    <StringItem index="243" value="Leptophlebiidae"/>
+                    <StringItem index="244" value="Heteragrionidae"/>
+                    <StringItem index="245" value="Syngnathidae"/>
+                    <StringItem index="246" value="Craugastoridae"/>
+                    <StringItem index="247" value="Phyllodactylidae"/>
+                    <StringItem index="248" value="Humiriaceae"/>
+                    <StringItem index="249" value="Violaceae"/>
+                    <StringItem index="250" value="Araliaceae"/>
+                    <StringItem index="251" value="Caprimulgidae"/>
+                    <StringItem index="252" value="Vireonidae"/>
+                    <StringItem index="253" value="Hymenophyllaceae"/>
+                    <StringItem index="254" value="Hypericaceae"/>
+                    <StringItem index="255" value="Vesperidae"/>
+                    <StringItem index="256" value="Anostomidae"/>
+                    <StringItem index="257" value="Streptaxidae"/>
+                    <StringItem index="258" value="Corinnidae"/>
+                    <StringItem index="259" value="Ideoroncidae"/>
+                    <StringItem index="260" value="Aquifoliaceae"/>
+                    <StringItem index="261" value="Iniidae"/>
+                    <StringItem index="262" value="Tityridae"/>
+                    <StringItem index="263" value="Myristicaceae"/>
+                    <StringItem index="264" value="Isoetaceae"/>
+                    <StringItem index="265" value="Isotomidae"/>
+                    <StringItem index="266" value="Pallaviciniaceae"/>
+                    <StringItem index="267" value="Anablepidae"/>
+                    <StringItem index="268" value="Riodinidae"/>
+                    <StringItem index="269" value="Jungermanniaceae"/>
+                    <StringItem index="270" value="Istiophoridae"/>
+                    <StringItem index="271" value="Calophyllaceae"/>
+                    <StringItem index="272" value="Latrunculiidae"/>
+                    <StringItem index="273" value="Lebiasinidae"/>
+                    <StringItem index="274" value="Felidae"/>
+                    <StringItem index="275" value="Pottiaceae"/>
+                    <StringItem index="276" value="Ophidiasteridae"/>
+                    <StringItem index="277" value="Linaceae"/>
+                    <StringItem index="278" value="Liolaemidae"/>
+                    <StringItem index="279" value="Campanulaceae"/>
+                    <StringItem index="280" value="Pseudopimelodidae"/>
+                    <StringItem index="281" value="Malacanthidae"/>
+                    <StringItem index="282" value="Luidiidae"/>
+                    <StringItem index="283" value="Lutjanidae"/>
+                    <StringItem index="284" value="Ochnaceae"/>
+                    <StringItem index="285" value="Lymnaeidae"/>
+                    <StringItem index="286" value="Primulaceae"/>
+                    <StringItem index="287" value="Toxopneustidae"/>
+                    <StringItem index="288" value="Odontostomidae"/>
+                    <StringItem index="289" value="Monimiaceae"/>
+                    <StringItem index="290" value="Labrisomidae"/>
+                    <StringItem index="291" value="Mobulidae"/>
+                    <StringItem index="292" value="Marchantiaceae"/>
+                    <StringItem index="293" value="Salticidae"/>
+                    <StringItem index="294" value="Chernetidae"/>
+                    <StringItem index="295" value="Celastraceae"/>
+                    <StringItem index="296" value="Megalobulimidae"/>
+                    <StringItem index="297" value="Megalopidae"/>
+                    <StringItem index="298" value="Bufonidae"/>
+                    <StringItem index="299" value="Apidae"/>
+                    <StringItem index="300" value="Anatidae"/>
+                    <StringItem index="301" value="Chelidae"/>
+                    <StringItem index="302" value="Pholcidae"/>
+                    <StringItem index="303" value="Metzgeriaceae"/>
+                    <StringItem index="304" value="Pomacentridae"/>
+                    <StringItem index="305" value="Phytolaccaceae"/>
+                    <StringItem index="306" value="Milleporidae"/>
+                    <StringItem index="307" value="Momotidae"/>
+                    <StringItem index="308" value="Bucconidae"/>
+                    <StringItem index="309" value="Gelsemiaceae"/>
+                    <StringItem index="310" value="Podostemaceae"/>
+                    <StringItem index="311" value="Mussidae"/>
+                    <StringItem index="312" value="Mycetopodidae"/>
+                    <StringItem index="313" value="Serrasalmidae"/>
+                    <StringItem index="314" value="Myliobatidae"/>
+                    <StringItem index="315" value="Anacardiaceae"/>
+                    <StringItem index="316" value="Myrmecophagidae"/>
+                    <StringItem index="317" value="Myxinidae"/>
+                    <StringItem index="318" value="Natalidae"/>
+                    <StringItem index="319" value="Cuculidae"/>
+                    <StringItem index="320" value="Hexanchidae"/>
+                    <StringItem index="321" value="Nyctibiidae"/>
+                    <StringItem index="322" value="Ochyroceratidae"/>
+                    <StringItem index="323" value="Atherinopsidae"/>
+                    <StringItem index="324" value="Odontophoridae"/>
+                    <StringItem index="325" value="Olividae"/>
+                    <StringItem index="326" value="Ophidiidae"/>
+                    <StringItem index="327" value="Oreasteridae"/>
+                    <StringItem index="328" value="Oxalidaceae"/>
+                    <StringItem index="329" value="Lepidoziaceae"/>
+                    <StringItem index="330" value="Pyralidae"/>
+                    <StringItem index="331" value="Sminthuridae"/>
+                    <StringItem index="332" value="Leptodactylidae"/>
+                    <StringItem index="333" value="Potamotrygonidae"/>
+                    <StringItem index="334" value="Passifloraceae"/>
+                    <StringItem index="335" value="Piperaceae"/>
+                    <StringItem index="336" value="Cryptodesmidae"/>
+                    <StringItem index="337" value="Vermetidae"/>
+                    <StringItem index="338" value="Phaethontidae"/>
+                    <StringItem index="339" value="Phyllanthaceae"/>
+                    <StringItem index="340" value="Veronicellidae"/>
+                    <StringItem index="341" value="Gomphidae"/>
+                    <StringItem index="342" value="Physidae"/>
+                    <StringItem index="343" value="Physeteridae"/>
+                    <StringItem index="344" value="Picramniaceae"/>
+                    <StringItem index="345" value="Urticaceae"/>
+                    <StringItem index="346" value="Pipritidae"/>
+                    <StringItem index="347" value="Plagiochilaceae"/>
+                    <StringItem index="348" value="Planorbidae"/>
+                    <StringItem index="349" value="Podocarpaceae"/>
+                    <StringItem index="350" value="Sciaenidae"/>
+                    <StringItem index="351" value="Polygalaceae"/>
+                    <StringItem index="352" value="Polyprionidae"/>
+                    <StringItem index="353" value="Ampullariidae"/>
+                    <StringItem index="354" value="Pontoporiidae"/>
+                    <StringItem index="355" value="Portulacaceae"/>
+                    <StringItem index="356" value="Rallidae"/>
+                    <StringItem index="357" value="Batrachoididae"/>
+                    <StringItem index="358" value="Hydrobiidae"/>
+                    <StringItem index="359" value="Gentianaceae"/>
+                    <StringItem index="360" value="Bruchiaceae"/>
+                    <StringItem index="361" value="Dasypodidae"/>
+                    <StringItem index="362" value="Pristidae"/>
+                    <StringItem index="363" value="Procellariidae"/>
+                    <StringItem index="364" value="Odontophrynidae"/>
+                    <StringItem index="365" value="Prochilodontidae"/>
+                    <StringItem index="366" value="Olpiidae"/>
+                    <StringItem index="367" value="Chaetodontidae"/>
+                    <StringItem index="368" value="Chthoniidae"/>
+                    <StringItem index="369" value="Spirostreptidae"/>
+                    <StringItem index="370" value="Iridaceae"/>
+                    <StringItem index="371" value="Psophiidae"/>
+                    <StringItem index="372" value="Ramphastidae"/>
+                    <StringItem index="373" value="Mustelidae"/>
+                    <StringItem index="374" value="Strigidae"/>
+                    <StringItem index="375" value="Quillajaceae"/>
+                    <StringItem index="376" value="Spongillidae"/>
+                    <StringItem index="377" value="Marsileaceae"/>
+                    <StringItem index="378" value="Zingiberaceae"/>
+                    <StringItem index="379" value="Rhincodontidae"/>
+                    <StringItem index="380" value="Rhinobatidae"/>
+                    <StringItem index="381" value="Ricciaceae"/>
+                    <StringItem index="382" value="Cynodontidae"/>
+                    <StringItem index="383" value="Connaraceae"/>
+                    <StringItem index="384" value="Hubbardiidae"/>
+                    <StringItem index="385" value="Alismataceae"/>
+                    <StringItem index="386" value="Scolopendridae"/>
+                    <StringItem index="387" value="Scorpaenidae"/>
+                    <StringItem index="388" value="Selaginellaceae"/>
+                    <StringItem index="389" value="Elaeocarpaceae"/>
+                    <StringItem index="390" value="Smilacaceae"/>
+                    <StringItem index="391" value="Delphinidae"/>
+                    <StringItem index="392" value="Escadabiidae"/>
+                    <StringItem index="393" value="Bochicidae"/>
+                    <StringItem index="394" value="Sphyrnidae"/>
+                    <StringItem index="395" value="Loganiaceae"/>
+                    <StringItem index="396" value="Cryptogeobiidae"/>
+                    <StringItem index="397" value="Pomatiopsidae"/>
+                    <StringItem index="398" value="Fringilidae"/>
+                    <StringItem index="399" value="Squalidae"/>
+                    <StringItem index="400" value="Squatinidae"/>
+                    <StringItem index="401" value="Tropiduridae"/>
+                    <StringItem index="402" value="Dichapetalaceae"/>
+                    <StringItem index="403" value="Sternidae"/>
+                    <StringItem index="404" value="Succineidae"/>
+                    <StringItem index="405" value="Sulidae"/>
+                    <StringItem index="406" value="Symplocaceae"/>
+                    <StringItem index="407" value="Synaptidae"/>
+                    <StringItem index="408" value="Tapiriidae"/>
+                    <StringItem index="409" value="Tayassuidae"/>
+                    <StringItem index="410" value="Pentaphylacaceae"/>
+                    <StringItem index="411" value="Bulimulidae"/>
+                    <StringItem index="412" value="Thelypteridaceae"/>
+                    <StringItem index="413" value="Scombridae"/>
+                    <StringItem index="414" value="Ardeidae"/>
+                    <StringItem index="415" value="Torpedinidae"/>
+                    <StringItem index="416" value="Trichechidae"/>
+                    <StringItem index="417" value="Trigoniaceae"/>
+                    <StringItem index="418" value="Paronellidae"/>
+                    <StringItem index="419" value="Trogonidae"/>
+                    <StringItem index="420" value="Tropaeolaceae"/>
+                    <StringItem index="421" value="Tropidophiidae"/>
+                    <StringItem index="422" value="Caprifoliaceae"/>
+                    <StringItem index="423" value="Spengelidae"/>
+                    <StringItem index="424" value="Xenopidae"/>
+                    <StringItem index="425" value="Xyridaceae"/>
+                    <StringItem index="426" value="Pyrgodesmidae"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Especie"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_especie">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel6">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Principais Ame&#xe7;as"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_ameacas">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel9">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="UF"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cb_uf">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="28">
+                    <StringItem index="0" value="UF"/>
+                    <StringItem index="1" value="RO"/>
+                    <StringItem index="2" value="AC"/>
+                    <StringItem index="3" value="AM"/>
+                    <StringItem index="4" value="RR"/>
+                    <StringItem index="5" value="PA"/>
+                    <StringItem index="6" value="AP"/>
+                    <StringItem index="7" value="TO"/>
+                    <StringItem index="8" value="MA"/>
+                    <StringItem index="9" value="PI"/>
+                    <StringItem index="10" value="CE"/>
+                    <StringItem index="11" value="RN"/>
+                    <StringItem index="12" value="PB"/>
+                    <StringItem index="13" value="PE"/>
+                    <StringItem index="14" value="AL"/>
+                    <StringItem index="15" value="SE"/>
+                    <StringItem index="16" value="BA"/>
+                    <StringItem index="17" value="MG"/>
+                    <StringItem index="18" value="ES"/>
+                    <StringItem index="19" value="RJ"/>
+                    <StringItem index="20" value="SP"/>
+                    <StringItem index="21" value="PR"/>
+                    <StringItem index="22" value="SC"/>
+                    <StringItem index="23" value="RS"/>
+                    <StringItem index="24" value="MS"/>
+                    <StringItem index="25" value="MT"/>
+                    <StringItem index="26" value="GO"/>
+                    <StringItem index="27" value="DF"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnConsulta">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Pesquisar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnConsultaActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnLimpar">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Limpar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLimparActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane2">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="10" y="290" width="980" height="330"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="painelCONSULTA">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Consulta">
+                <Property name="tabTitle" type="java.lang.String" value="Consulta"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" pref="955" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane2" alignment="1" pref="302" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="tblConsulta">
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JToolBar" name="jToolBar2">
+      <Properties>
+        <Property name="rollover" type="boolean" value="true"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="660" width="1080" height="30"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblMensagem">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Mensagem"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="btnSAIR">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fechar"/>
+        <Property name="focusable" type="boolean" value="false"/>
+        <Property name="horizontalTextPosition" type="int" value="0"/>
+        <Property name="verticalTextPosition" type="int" value="3"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSAIRActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="860" y="20" width="100" height="30"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_Sincronizar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="SINCRONIZAR"/>
+        <Property name="focusable" type="boolean" value="false"/>
+        <Property name="horizontalTextPosition" type="int" value="0"/>
+        <Property name="verticalTextPosition" type="int" value="3"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_SincronizarActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="350" y="10" width="130" height="50"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CONECTAR"/>
+        <Property name="focusable" type="boolean" value="false"/>
+        <Property name="horizontalTextPosition" type="int" value="0"/>
+        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[103, 23]"/>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[103, 23]"/>
+        </Property>
+        <Property name="verticalTextPosition" type="int" value="3"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="500" y="10" width="130" height="50"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+  </SubComponents>
+</Form>
